@@ -96,8 +96,9 @@ footer a:hover{
     position: relative;
     left: 101px;
     top: 7px;
-    background-color: #fff;
+    background-color: transparent;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .list{
@@ -115,7 +116,7 @@ ul{
     flex-direction: column;
     justify-content: center;
     position: relative;
-    width: 99%;
+    width: 98%;
 }
 
 li{

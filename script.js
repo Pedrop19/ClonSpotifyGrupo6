@@ -15,6 +15,7 @@ fetch('./songs.json')
                 <h2>${song.title}</h2>
                 <h3>${song.artist}</h3>
                 <p>${song.album}</p>
+                <p>${song.duration}</p>
             </div>
         `;
         listaElement.appendChild(listElement);
