@@ -1,0 +1,83 @@
+:root {
+    --color-naranja: #ee7752;
+    --color-azul: #23a6d5;
+    --color-rosa: #e73c7e;
+    --color-verde: #23d5ab;
+    --color-claro: #FFF;
+    --color-oscuro: #000;
+}
+
+.nav-topbar {
+    padding: 10px;
+    position: fixed;
+    left: 30%;
+    width: 69%;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-topbar:hover {
+    background-color: var(--color-verde);
+    transition: 0.5s;
+}
+
+.nav-topbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-topbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: var(--color-azul);
+    padding: 10px;
+    border-radius: 12px;
+    color: var(--color-claro);
+}
+
+.nav-topbar li {
+    transition: transform 0.5s;
+}
+
+.nav-topbar li:hover {
+    transform: scale(1.1);
+}
+
+.containerVinile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.record-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.cover {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: var(--color-azul);
+    z-index: 1;
+}
+
+.record {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-image: url(./imgs_artista/disco.png);
+    background-size: cover;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s;
+}
