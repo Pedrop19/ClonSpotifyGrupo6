@@ -1,4 +1,4 @@
-let listaElement = document.querySelector('.lista');
+let listaElement = document.querySelector('.list2');
 
 fetch('./songs.json')
 .then(response => response.json())
