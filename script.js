@@ -9,7 +9,7 @@ fetch('./songs.json')
     songs.forEach(song => {
         let listElement = document.createElement("li");
         listElement.className = "song";
-        listElement.style.background = `url(${song.img}) no-repeat top center / cover, linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))`;
+        listElement.style.background = `url(${song.img + ".png"}) no-repeat top center / cover, linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))`;
         listElement.innerHTML = `
             <div class="song-info">
                 <h2>${song.title}</h2>
@@ -22,5 +22,15 @@ fetch('./songs.json')
             </div>
         `;
         listaElement.appendChild(listElement);
+
+        listElement.addEventListener("mouseover", function(e){
+            document.body.style.backgroundImage=`url(${song.img + "1.png"})`;
+            console.log(`${song.img}`);
+        });
+     
+        listElement.addEventListener("mouseout", function(e){
+            document.body.style.backgroundImage="";
+        });
+    
     }); 
 })
