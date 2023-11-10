@@ -1,4 +1,5 @@
 let listaElement = document.querySelector('.list2');
+let superElement = document.querySelector('.super-container');
 
 fetch('./songs.json')
 .then(response => response.json())
@@ -24,7 +25,7 @@ fetch('./songs.json')
         listaElement.appendChild(listElement);
 
         listElement.addEventListener("mouseover", function(e){
-            document.body.style.backgroundImage=`url(${song.img + "1.png"})`;
+            superElement.style.backgroundImage=`url(${song.img + "1.png"})`;
             console.log(`${song.img}`);
         });
      
