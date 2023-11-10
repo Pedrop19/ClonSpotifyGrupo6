@@ -789,6 +789,7 @@ footer {
     transition: .7s;
     background-color: #ffffffb3;
     opacity: .9;
+    margin-bottom: 14px;
 }
 
 .lista:hover{
