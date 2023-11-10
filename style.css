@@ -23,11 +23,13 @@
     position: fixed;
     top: 0;
     left: calc(25vw + 10px);
+    /*box-shadow: 0 2px 20px 3px rgba(0,0,0,.2); */   
     background: linear-gradient(to bottom, rgba(1, 7, 20, 0.5), rgba(1, 7, 20, 0.1));
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 25px 25px 10px;
+    z-index: 5;
 }
 
 .back-forward,
@@ -133,14 +135,211 @@
     }
 }
 
+.search-box {
+    display: flex;
+    align-items: center;
+    animation: moveInBottom 1s ease-out;
+    animation-fill-mode: backwards;
+}
 
-/*Vinilo*/
+.search-box li {
+    list-style-type: none;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
 
-.containerVinile {
+.search-box a:hover, .play-follow a:hover, .record-container:hover {
+    cursor: pointer;
+}
+
+#search {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+}
+
+#search::placeholder {
+    color: var(--color-white);
+}
+
+#search:focus {
+    outline: none;
+    border: 2px solid var(--color-navy); 
+}
+
+.search-icon img {
+    height: 15px;
+    margin: 10px;
+}
+
+
+/*ARTIST PAGE*/
+
+.artist-main {
+    position: absolute;
+    top: 18%;
+    width: 68%;
+    left: 28%;
+}
+
+.artist-main section {
+    box-shadow: 0 2px 20px 3px rgba(0,0,0,.2);
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.artist-main section h2 {
+    margin-top: 20px;
+}
+
+.artist-playlist-follow {
+    position: relative;
+
+}
+
+.artist-playlist-follow h1 {
+    font-size: 75px;
+    text-align: center;
+}
+
+.listeners-verified {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+
+.listeners-verified p {
+    display: flex;
+}
+
+.listeners-verified img {
+    height: 25px;
+    margin: 0 10px;
+}
+
+.topSongs-play-follow-artistSetList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-songs {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 500px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sabaton-top-song {
+    width: 80%;
+    position: relative;
+}
+
+
+.sabaton-top-song img {
+    width: 100%; 
+    height: auto; 
+}
+
+.sabaton-top-song p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+.play-follow-artistSetList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.play-follow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.play-follow img{
+    height: 60px;
+}
+
+.btn-follow {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: var(--color-dark-blue); 
+}
+
+.btn-follow:hover {
+    background-color: rgba(255, 255, 255, 1); 
+    color: var(--color-dark-blue); 
+}
+
+.artist-set-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.artist-set-list img {
+    height: 110px;
+    width: 110px;
+    margin: 10px 0;
+}
+
+
+.artist-list, .other-artists, .artist-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-all-vinyls {
+    display: flex;
+    margin: 85px 0;
+    max-width: 100%;
+}
+
+.other-artists-list {
+    display: flex;
+}
+
+.other-artists-albums img {
+    height: 100px;
+    width: 100px;
+}
+
+/*RECORD*/
+
+.container-vinyl, .other-artists-albums {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 35vh;
+    margin: 0 10px
 }
 
 .record-container {
@@ -148,6 +347,7 @@
     width: 200px;
     height: 200px;
     perspective: 1000px;
+    margin: 5px;
 }
 
 .cover {
@@ -156,6 +356,12 @@
     height: 200px;
     background-color: var(--color-mid-blue);
     z-index: 1;
+    box-shadow: 0 2px 20px 3px rgba(0,0,0,0.4);
+}
+
+.cover img {
+    width: 200px;
+    height: 200px;
 }
 
 .record {
