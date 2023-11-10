@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(./img/GrayScale/fondo1.jpeg);
+  background: url(./img/fondo1.jpeg);
   transition: all 2s ease-in-out;
 }
 

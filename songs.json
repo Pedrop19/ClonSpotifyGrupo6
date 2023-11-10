@@ -4,139 +4,139 @@
         "artist": "Ramones",
         "album": "Road to Run",
         "duration": "02:29",
-        "img": "./img/GrayScale/ramones"
+        "img": "./img/ramones"
     },
     {
         "title": "Highway to Hell",
         "artist": "AC/DC",
         "album": "Highway to Hell",
         "duration": "03:28",
-        "img": "./img//GrayScale/acdc"
+        "img": "./img/acdc"
     },
     {
         "title": "Paint It, Black",
         "artist": "The Rolling Stones",
         "album": "Aftermath",
         "duration": "03:22",
-        "img": "./img//GrayScale/rolling"
+        "img": "./img/rolling"
     },
     {
         "title": "Everlong",
         "artist": "Foo Fighters",
         "album": "The Colour and the Shape",
         "duration": "04:10",
-        "img": "./img//GrayScale/four"
+        "img": "./img/four"
     },
     {
         "title": "Free Bird",
         "artist": "Lynyrd Skynyrd",
         "album": "Pronounced 'Lĕh-'nérd 'Skin-'nérd",
         "duration": "09:08",
-        "img": "./img//GrayScale/freebird"
+        "img": "./img/free"
     },
     {
         "title": "Sweet Child O' Mine",
         "artist": "Guns N' Roses",
         "album": "Appetite for Destruction",
         "duration": "05:56",
-        "img": "./img//GrayScale/guns"
+        "img": "./img/guns"
     },
     {
         "title": "The Joker",
         "artist": "Steve Miller Band",
         "album": "The Joker",
         "duration": "04:26",
-        "img": "./img//GrayScale/joker"
+        "img": "./img/joker"
     },
     {
         "title": "Dreams - 2004 Remaster",
         "artist": "Fleetwood Mac",
         "album": "Rumours",
         "duration": "04:17",
-        "img": "./img//GrayScale/dreams"
+        "img": "./img/dreams"
     },
     {
         "title": "Bohemian Rhapsody - Remastered 2011",
         "artist": "Queen",
         "album": "A Night at the Opera",
         "duration": "05:54",
-        "img": "./img/GrayScale/queen"
+        "img": "./img/queen"
     },
     {
         "title": "House of the Rising Sun",
         "artist": "The Animals",
         "album": "The Animals",
         "duration": "04:29",
-        "img": "./img/GrayScale/animals"
+        "img": "./img/animals"
     },
     {
         "title": "One Way Or Another - Remastered 2001",
         "artist": "Blondie",
         "album": "Parallel Lines",
         "duration": "03:31",
-        "img": "./img/GrayScale/oneway"
+        "img": "./img/oneway"
     },
     {
         "title": "Dream On",
         "artist": "Aerosmith",
         "album": "Aerosmith",
         "duration": "04:28",
-        "img": "./img/GrayScale/dreamson"
+        "img": "./img/dreamson"
     },
     {
         "title": "Free Fallin'",
         "artist": "Tom Petty",
         "album": "Full Moon Fever",
         "duration": "04:16",
-        "img": "./img/GrayScale/fullmon"
+        "img": "./img/fullmon"
     },
     {
         "title": "Zombie",
         "artist": "The Cranberries",
         "album": "No Need to Argue",
         "duration": "05:06",
-        "img": "./img/GrayScale/zombie"
+        "img": "./img/zombie"
     },
     {
         "title": "Interstate Love Song - 2019 Remaster",
         "artist": "Stone Temple Pilots",
         "album": "Purple",
         "duration": "03:14",
-        "img": "./img/GrayScale/inter"
+        "img": "./img/inter"
     },
     {
         "title": "Stairway to Heaven - Remaster",
         "artist": "Led Zeppelin",
         "album": "Led Zeppelin IV",
         "duration": "08:02",
-        "img": "./img/GrayScale/starway"
+        "img": "./img/starway"
     },
     {
         "title": "Hotel California - 2013 Remaster",
         "artist": "Eagles",
         "album": "Hotel California",
         "duration": "06:31",
-        "img": "./img/GrayScale/hotel"
+        "img": "./img/hotel"
     },
     {
         "title": "Sharp Dressed Man - 2008 Remaster",
         "artist": "ZZ Top",
         "album": "Eliminator",
         "duration": "04:13",
-        "img": "./img/GrayScale/sharp"
+        "img": "./img/sharp"
     },
     {
         "title": "Creep",
         "artist": "Radiohead",
         "album": "Pablo Honey",
         "duration": "03:56",
-        "img": "./img/GrayScale/creep"
+        "img": "./img/creep"
     },
     {
         "title": "Come As You Are",
         "artist": "Nirvana",
         "album": "Nevermind",
         "duration": "03:39",
-        "img": "./img/GrayScale/nirvana"
+        "img": "./img/nirvana"
     }
 ]
