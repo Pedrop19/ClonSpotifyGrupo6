@@ -478,4 +478,335 @@ footer {
     font-size: 5rem;
     transition: all 0.3s ease;
   }
+
+  /* ARTIST PAGE */
+
+  .artist-main {
+    position: absolute;
+    top: 18%;
+    width: 78%;
+    right: 10px;
+    color: var(--color-white);
+}
+
+.artist-main h2 {
+    font-size: 40px;
+}
+
+.artist-main h2, .artist-main p, .artist-main h1 {
+    text-shadow: 7px 4px 6px rgba(0,0,0,0.5);
+
+}
+
+.artist-main section {
+    box-shadow: 0 2px 20px 3px rgba(0,0,0,.2);
+    margin-top: 25px;
+    border-radius: 20px;
+    background-color: var(--color-dark-blue);
+}
+
+.artist-main section h2 {
+    margin-top: 20px;
+}
+
+.artist-playlist-follow {
+    position: relative;
+    background-image: url(./imgs_artista/sabaton/sabaton-artist-group.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.artist-playlist-follow h1 {
+    font-size: 75px;
+    text-align: center;
+}
+
+
+.listeners-verified {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 25px;
+}
+
+.listeners-verified p {
+    display: flex;
+}
+
+.listeners-verified img {
+    height: 25px;
+    margin: 0 10px;
+}
+
+.topSongs-play-follow-artistSetList {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    padding-bottom: 20px;
+}
+
+.top-songs {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sabaton-top-song {
+    width: 80%;
+    position: relative;
+    height: 20%;
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.sabaton-top-song p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    margin: 0;
+    text-align: center;
+}
+
+.play-follow-artistSetList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.play-follow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.play-follow img{
+    height: 60px;
+}
+
+.play-follow img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-follow {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: var(--color-dark-blue); 
+}
+
+.btn-follow:hover {
+    background-color: rgba(16, 42, 66, 0.9); 
+    color: var(--color-white); 
+}
+
+.artist-set-list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+
+.artist-set-list img {
+    height: 110px;
+    width: 110px;
+    margin: 10px 0;
+}
+
+.artist-list, .other-artists, .artist-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-all-vinyls, .other-artists-albums-list {
+    display: flex;
+    margin: 60px 0;
+    max-width: 100%;
+}
+
+.other-artists-albums-list {
+    display: flex;
+}
+
+.other-artists-albums {
+    background-color: var(--color-mid-blue);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 250px;
+    margin: 0 10px;
+    width: 200px;
+    box-shadow: 0 2px 20px 3px rgba(0,0,0,0.4);
+    transition: 0.3s ease-in-out;
+}
+
+.other-artists-albums:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.other-artists-albums p {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.other-artists-albums img {
+    height: 200px;
+    width: 200px;
+}
+
+.artist-info img {
+    width: 500px;
+    height: 500px;
+    margin: 60px 0;
+    box-shadow: 0 2px 20px 3px rgba(0,0,0,.2);
+}
+
+.artist-info p {
+    padding: 10px 40px;
+    margin: 0 20px 20px;
+    background-color: var(--color-mid-blue);
+    border-radius: 10px;
+}
+
+/*RECORD*/
+
+.container-vinyl, .other-artists-albums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    margin: 0 10px
+}
+
+.record-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+    margin: 5px;
+}
+
+.cover {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: var(--color-mid-blue);
+    z-index: 1;
+    box-shadow: 0 2px 20px 3px rgba(0,0,0,0.4);
+}
+
+.cover img {
+    width: 200px;
+    height: 200px;
+}
+
+.record {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-image: url(./imgs_artista/disco.png);
+    background-size: cover;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s;
+}
+
+
+  .sidebar-contenido{
+    color: white;
+    width: 78%;
+    height: auto;
+    border-radius: 12px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgb(0, 0, 0) 2px 0px 20px 0px;
+    position: relative;
+    top: 114px;
+    left: 10%;
+    margin-bottom: 100px;
+
+}
+.sidebar-contenido h1{
+    margin-top:1rem;
+    text-transform: uppercase;
+    font-size: 37px;
+    /*transition: all 2s;*/
+}
+.sidebar-contenido h1:hover {
+    margin-top: 1rem;
+    text-shadow: 4px 5px 6px #3b3b3bd4;
+    text-transform: uppercase;
+    font-size: 37px;
+    /*transition:all 2s;*/
+    animation: float 2s ease-in-out infinite;
+}
+
+.inicio-contenedor-listas{
+    margin-top: 20px;
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.lista{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 220px;
+    width: 163px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 16px -4px rgba(0, 0, 0, 1);
+    border-radius:20px;
+    transition: .7s;
+    background-color: #ffffffb3;
+    opacity: .9;
+}
+
+.lista:hover{
+    cursor:pointer;
+    transition: .7s;
+    background-color: #ffffff4d;
+    box-shadow: 5px 5px 16px 0px rgba(0, 0, 0, 1);
+    opacity: 1;
+    background-color: white;
+    transform: translateY(-10px) scale(1.1);
+}
+.lista img{
+    margin:10px;
+    border-radius: 12px;
+    height: 150px;
+    width: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
   
