@@ -524,7 +524,7 @@ footer {
 
 .artist-playlist-follow {
     position: relative;
-    background-image: url(./imgs_artista/sabaton/sabaton-artist-group.jpg);
+    background-image: url(./img/sabaton-artist-group.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -739,7 +739,7 @@ footer {
     position: absolute;
     width: 180px;
     height: 180px;
-    background-image: url(./imgs_artista/disco.png);
+    background-image: url(./img/disco.png);
     background-size: cover;
     border-radius: 50%;
     top: 50%;
